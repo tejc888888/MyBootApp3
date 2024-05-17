@@ -17,6 +17,10 @@ public class HelloController
 	}
 	@RequestMapping("/sendai")
 	public String sendai() {
-		return "Miyagi desu!";
+		return "Sendai desu!";
+	}
+	@RequestMapping("/akita")
+	public String akita() {
+		return "Akita desu!";
 	}
 }
