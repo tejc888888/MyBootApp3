@@ -15,4 +15,8 @@ public class HelloController
 	public String miyagi() {
 		return "Miyagi desu!";
 	}
+	@RequestMapping("/sendai")
+	public String sendai() {
+		return "Miyagi desu!";
+	}
 }
